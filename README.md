@@ -36,7 +36,25 @@ A continuación debemos instalar las dependencias NVM y Node.
 Para instalar el gestor de versiones de Node escribimos el siguiente comando:
 `wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash`
 
+Una vez instalado, podemos actualizarlo y ver la ultima version en la terminal a traves de `node --version`
+![imagen8](8.png)
 
+Tambien existe una herramienta para detectar errores en el funcionamiento del codigo escrito en JavaScript, el cual deberiamos implementar. Para ello lo instalamos a traves de nvm:
+`npm install -g jshint`
+
+El siguiente paso es instalar RVM que es el gestor de versiones de Ruby. Para ello procedemos a escribir el siguiente comando: `sudo apt-get install software-properties-common`, despues de esto instalamos las dependencias necesarias para RVM:
+```
+sudo apt-add-repository -y ppa:rael-gc/rvm
+sudo apt-get update
+sudo apt-get install rvm
+```
+Continuamos instalando Ruby a traves de rvm `rvm install ruby`. Para mejorar nuestra experiencia editando en el terminal, podemos tener en cuenta el gestor de archivos para vi NERDTree, para instalarlo clonamos el repositorio:
+```
+git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree 
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+```
+una vez instalado todo, ejecutamos la aplicacion de ejemplo y podemos acceder a traves del puerto 80:
+![imagen9](9.png)
 
 ## Uso de la máquina
 
@@ -46,6 +64,6 @@ Para comenzar, debemos saber que trabajaremos en una máquina de forma remota a 
 Como vemos, solo se puede entrar si tenemos un correo institucional. A continuación, pasamos a ver las máquinas que tenemos asignadas según las asignaturas que tengamos:
 ![imagen2](2.png)
 
-Para empezar, elegimos la máquina de la asignatura DMSI(desarrollo y mantenimiento de sistemas de la información). Aquí podemos ver la información de la máquina así como abrir una consola para configurarla para más tarde acceder a la máquina con el ssh.
+Para empezar, elegimos la máquina de la asignatura DMSI(desarrollo y mantenimiento de sistemas de la información). Aquí podemos ver la información de la máquina así como abrir una consola para configurarla para más tarde acceder a la máquina con el ssh, ahi tenemos la ip con la cual poder entrar con `usuario@[ip]`
 ![imagen3](3.png)
 
