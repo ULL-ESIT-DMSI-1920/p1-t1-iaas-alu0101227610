@@ -54,6 +54,7 @@ git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/ner
 vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
 ```
 una vez instalado todo, ejecutamos la aplicacion de ejemplo y podemos acceder a traves del puerto 80:
+
 ![imagen9](9.png)
 
 ## Uso de la máquina
