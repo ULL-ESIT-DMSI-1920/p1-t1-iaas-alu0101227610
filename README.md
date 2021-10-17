@@ -11,6 +11,8 @@ Para empezar, depende de la máquina que utilicemos debemos instalar de una mane
 
 Esto ejecutará un script que me instalará homebrew para poder instalar en mi máquina aquellas dependencias que Apple no trae por defento.
 
+#### Instalacion de Git
+
 A continuación, procedemos a la instalación de git. En algunas máquinas ya viene instalado por defecto pero si no es el caso, debemos escribir:
 `sudo apt install git` o en su defecto `brew install git`
 
@@ -33,6 +35,8 @@ Una vez copiada la clave, debemos escribirla en la página de github en la secci
 A la hora de usar Git, una vez instalado y configurado podemos añadir otras herramientas para mejorar nuestra experiencia. Una de estas herramientas puede ser _git aliasses_ que nos permite crear alias para opciones que tengamos que repetir muchas veces: 
 `git config --global alias.amend 'commit --amend'`
 
+#### Instalacion de NVM y Node
+
 A continuación debemos instalar las dependencias NVM y Node. 
 
 Para instalar el gestor de versiones de Node escribimos el siguiente comando:
@@ -43,6 +47,8 @@ Una vez instalado, podemos actualizarlo y ver la ultima version en la terminal a
 
 Tambien existe una herramienta para detectar errores en el funcionamiento del codigo escrito en JavaScript, el cual deberiamos implementar. Para ello lo instalamos a traves de nvm:
 `npm install -g jshint`
+
+#### Instalacion de RVM y Ruby
 
 El siguiente paso es instalar RVM que es el gestor de versiones de Ruby. Para ello procedemos a escribir el siguiente comando: `sudo apt-get install software-properties-common`, despues de esto instalamos las dependencias necesarias para RVM:
 ```
