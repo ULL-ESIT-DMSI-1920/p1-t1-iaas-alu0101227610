@@ -6,7 +6,9 @@
 ## Configuración previa
 
 Para empezar, depende de la máquina que utilicemos debemos instalar de una manera u otra la herramienta Homebrew. Los facilitará mucho la instalación de las dependencias que necesitamos. En mi caso, tengo un Mac, así que debo implementar este comando:
+
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
 Esto ejecutará un script que me instalará homebrew para poder instalar en mi máquina aquellas dependencias que Apple no trae por defento.
 
 A continuación, procedemos a la instalación de git. En algunas máquinas ya viene instalado por defecto pero si no es el caso, debemos escribir:
