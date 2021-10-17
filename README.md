@@ -65,7 +65,7 @@ una vez instalado todo, ejecutamos la aplicacion de ejemplo y podemos acceder a 
 
 ![imagen9](9.png)
 
-## Uso de la máquina
+### Uso de la máquina
 
 Para comenzar, debemos saber que trabajaremos en una máquina de forma remota a la que nos conectaremos desde nuestra máquina local. Esta máquina se llama IAAS y es proporcionada por la Universidad de la Laguna, para acceder a ella debemos entrar en esta página:
 ![imagen1](1.png)
